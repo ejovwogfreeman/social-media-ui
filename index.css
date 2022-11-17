@@ -57,10 +57,11 @@ body {
 
 .navbar-contents .account {
   flex: 3;
-  display: flex;
+  text-align: right;
+  /* display: flex;
   align-items: center;
-  justify-content: right;
-  background-color: red;
+  justify-content: right; */
+  /* background-color: red; */
 }
 
 .navbar-contents .account .profile-img {
