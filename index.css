@@ -256,6 +256,9 @@ body {
 }
 
 @media screen and (max-width: 1050px) {
+  .account-stats {
+    right: 10px;
+  }
   .main-content .left {
     left: 10px;
   }
@@ -268,9 +271,6 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-  .account-stats {
-    right: 10px;
-  }
   .main-content .left {
     display: none;
   }
@@ -314,7 +314,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5px !important;
+    margin-top: 8px !important;
   }
   .search-widget .links a {
     border: 1px solid rgba(255, 255, 255, 0.5);
