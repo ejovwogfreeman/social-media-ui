@@ -18,6 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0px 5% !important;
+  z-index: 1000;
 }
 
 .navbar-contents .logo {
