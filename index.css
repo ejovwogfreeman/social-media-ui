@@ -58,10 +58,6 @@ body {
 .navbar-contents .account {
   flex: 3;
   text-align: right;
-  /* display: flex;
-  align-items: center;
-  justify-content: right; */
-  /* background-color: red; */
 }
 
 .navbar-contents .account .profile-img {
@@ -257,6 +253,21 @@ body {
   display: none;
 }
 
+.profile-section img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-section a {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  padding: 5px 15px !important;
+  border-radius: 50px;
+}
+
 @media screen and (max-width: 1050px) {
   .account-stats {
     right: 10px;
@@ -325,6 +336,9 @@ body {
     padding: 5px 10px !important;
     border-radius: 50px;
   }
+  .profile-section {
+    padding-top: 80px !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -344,6 +358,9 @@ body {
   }
   .search-widget {
     padding: 70px 10px 0px !important;
+  }
+  .profile-section {
+    padding-top: 70px !important;
   }
 }
 
